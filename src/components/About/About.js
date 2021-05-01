@@ -9,7 +9,7 @@ const About = () => {
             <Navbar></Navbar>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-12">
                         <img className="my-5" src={photo} alt="" />
                         <h2 style={{color: '#080808'}}><span style={{color: '#20ff5e'}}>I'm</span> Mehedi Hasan</h2>
                         <p className="text-justify text-lead text-white">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>

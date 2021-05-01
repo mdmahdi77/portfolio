@@ -6,7 +6,7 @@ import  './ProjectCard.css'
 const ProjectCard = (props) => {
     const { title, description, code, live, image } = props.project
     return (
-        <div className="col-md-4 col-sm-6 col-12 my-sm-3 my-3 text-center">
+        <div className="col-lg-4 col-md-6 col-12 my-sm-3 my-3 text-center">
             <div class="card h-100">
                 <img style={{ height: '200px' }} src={image} class="card-img-top" alt="..." />
                 <div class="card-body">

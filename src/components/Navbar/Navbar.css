@@ -15,8 +15,7 @@
         transition: .5s;
 }
 .styleNavbar li a:hover::before{
-    width: 50%;
-    transform: translateX(100%);
+    width: 100%;
 }
 .logo{
     color: white;
@@ -33,6 +32,12 @@
       .custom-toggler.navbar-toggler {
         border-color: gray;
       } 
+      .styleNavbar li a{
+        font-size: 18px;
+    }
+    .styleNavbar li a:hover::before{
+        width: 20%;
+    }
 }
 @media (max-width: 768px){
     .logo{
