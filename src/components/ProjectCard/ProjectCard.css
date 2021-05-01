@@ -1,0 +1,30 @@
+.card{
+    transition: 0.5s
+}
+.card:hover{
+    background: #0cff65;
+    border: 2px solid #0cff65;
+    transform: translateY(-20px);
+}
+.card-body{
+    background: black;
+}
+.siteLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.siteLink a{
+    text-decoration: none;
+    color: black;
+}
+.githubLink{
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5px 12px;
+}
+.liveLink{
+    border: 1px solid #0cff65;
+    border-radius: 10px;
+    padding: 5px 12px;
+}
