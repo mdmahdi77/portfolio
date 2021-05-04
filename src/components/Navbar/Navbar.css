@@ -1,14 +1,16 @@
 .styleNavbar li a{
+    display: inline-block;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
     position: relative;
+    font-size: 19px;
 }
 .styleNavbar li a::before{
         content: "";
         width: 0px;
         height: 5px;
-        background: black;
+        background: #FDB515;
         position: absolute;
         top: 100%;
         left: 0;
@@ -21,11 +23,11 @@
     color: white;
     font-weight: 900;
     letter-spacing: 2px;
+    font-size: 35px !important;
+    color: #FDB515;
 }
+
 @media (max-width: 992px){
-    .logo{
-        font-size: 35px !important;
-    }
     .custom-toggler .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
       }
@@ -34,9 +36,6 @@
       } 
       .styleNavbar li a{
         font-size: 18px;
-    }
-    .styleNavbar li a:hover::before{
-        width: 20%;
     }
 }
 @media (max-width: 768px){

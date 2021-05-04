@@ -31,9 +31,6 @@ const Navbar = () => {
                         <li class="nav-item">
                             <Link className="nav-link ml-3" to="/contact">Contact</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link className="nav-link ml-3" to={`${resume}`} target="_blank" download>Download Resume</Link>
-                        </li>
                     </ul>
                 </div>
             </div>

@@ -4,6 +4,8 @@ import photo from '../../images/myImage.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Typical from 'react-typical'
+import { Link } from 'react-router-dom';
+import resume from '../../resume/resume-2.pdf'
 
 const FrontPage = () => {
     return (
@@ -18,15 +20,18 @@ const FrontPage = () => {
                     ]}
                 />
             </h3>
+            <div className="">
+                <Link className="resume" to={`${resume}`} target="_blank" download>Download Resume</Link>
+            </div>
             <ul className="social-media list-inline">
                 <li className="list-inline-item">
                     <a href="https://www.facebook.com/profile.php?id=100006789187624" target="_blank"><FontAwesomeIcon className="icon mx-2" icon={faFacebookF} /></a>
                 </li>
                 <li className="list-inline-item">
-                    <a href="https://github.com/mdmahdi77" target="_blank"><FontAwesomeIcon className="icon mx-2" icon={faLinkedinIn} /></a>
+                    <a href="https://www.linkedin.com/in/mehedi-hasan-389425211/" target="_blank"><FontAwesomeIcon className="icon mx-2" icon={faLinkedinIn} /></a>
                 </li>
                 <li className="list-inline-item">
-                    <a href="https://www.linkedin.com/in/mehedi-hasan-389425211/" target="_blank"><FontAwesomeIcon className="icon mx-2" icon={faGithub} /></a>
+                    <a href="https://github.com/mdmahdi77" target="_blank"><FontAwesomeIcon className="icon mx-2" icon={faGithub} /></a>
                 </li>
             </ul>
         </section>
