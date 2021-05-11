@@ -3,6 +3,8 @@ import Navbar from '../Navbar/Navbar';
 import diamondWorld from '../../images/diamondWorld.PNG'
 import foodStall from '../../images/foodStall.PNG'
 import cruiseQueen from '../../images/cruiseQueen.PNG'
+import doctors from '../../images/doctors-portal.PNG'
+import mobile from '../../images/mobile.PNG'
 import league from '../../images/league.PNG'
 import panda from '../../images/panda.PNG'
 import ProjectCard from '../ProjectCard/ProjectCard';
@@ -10,11 +12,25 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 const projectData = [
     {
+        title: "Doctors Portal",
+        description: "A fullstack doctors-portal app using React JS, Node JS, Express JS, MongoDB, Bootstrap",
+        code: "https://github.com/mdmahdi77/doctors-portal-client",
+        live: "https://doctors-portal-project-63a75.web.app/",
+        image: doctors
+    },
+    {
         title: "Diamond World",
         description: "A fullstack diamond world app using React JS, Node JS, MongoDB, Bootstrap",
         code: "https://github.com/mdmahdi77/Diamond-World-Client",
         live: "https://last-assignment-f788f.firebaseapp.com/",
         image: diamondWorld
+    },
+    {
+        title: "Mobile Shop",
+        description: "A fullstack e-commerce mobile shop app using React JS, Node JS, Express JS, MongoDB, Bootstrap",
+        code: "https://github.com/mdmahdi77/mobile-shop-cllient",
+        live: "https://assignment10-1.firebaseapp.com/",
+        image: mobile
     },
     {
         title: "Food Stall",
