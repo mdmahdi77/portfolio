@@ -6,17 +6,18 @@ import { faFacebookF, faLinkedinIn, faGithub } from '@fortawesome/free-brands-sv
 import Typical from 'react-typical'
 import { Link } from 'react-router-dom';
 import resume from '../../resume/resume-2.pdf'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 const FrontPage = () => {
     return (
         <section className="frontPage mt-5 pt-5">
             <img src={photo} alt="" />
-            <h3 className="my-3 text-white">I'm <span style={{color: '#0cff65'}}>MEHEDI HASAN</span> {' '}
+            <h3 className="my-3 text-white">I'm <span style={{ color: '#0cff65' }}>MEHEDI HASAN</span> {' '}
                 <Typical
                     loop={Infinity}
                     wrapper="p"
                     steps={[
-                        'Frontend Web Developer', 2000, 'Programmer', 2000, 'Learner', 2000
+                        'Frontend Web Developer', 2000, 'And', 2000, 'Learner', 2000
                     ]}
                 />
             </h3>
@@ -34,6 +35,10 @@ const FrontPage = () => {
                     <a href="https://github.com/mdmahdi77" target="_blank"><FontAwesomeIcon className="icon mx-2" icon={faGithub} /></a>
                 </li>
             </ul>
+            <MessengerCustomerChat
+                pageId="100006789187624"
+                appId="526400311868007"
+                />
         </section>
     );
 };
